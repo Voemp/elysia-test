@@ -1,0 +1,46 @@
+# prod
+dist/
+
+# idea
+.idea/AICommit.xml
+.idea/dataSources.xml
+.idea/deployment.xml
+
+# dev
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.turbo/
+.agents/
+.claude/
+
+# build
+build/
+
+# deps
+node_modules/
+drizzle/
+
+# env
+apps/server/.env
+.env.production
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
+
+package-lock.json
+**/*.trace
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.log
+**/*.bun
